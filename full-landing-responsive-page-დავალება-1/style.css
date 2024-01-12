@@ -1,0 +1,595 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Heebo";
+    src: url("Heebo-Regular.ttf");
+}
+.container{
+    margin: auto;
+    width: 1152px;
+    height: 2041px;
+    background-color: #FFF;
+}
+/* პირველი ბლოკი*/
+.block_1{
+    width: 100%;
+    height: 595px;
+}
+/*მენიუს ველი*/
+.section1{
+    width: 236px;
+    height: 43px;
+    margin-top: 27px;
+    margin-left: 856px;
+    display: flex;
+}
+.works{
+    width: 57px;
+    height: 100%;
+}
+.section_1_text{
+    margin-top: 0;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.blog{
+    width: 106px;
+    height: 100%;
+    margin-left: -29px;
+}
+#blog_text{
+    text-align: right;
+}
+.contact{
+    width: 71px;
+    height: 100%;
+    margin-left: 33px;
+}
+/*პიროვნების ინფორმაცია და ჩამოსატვირთი ღილაკი*/
+.charcho{
+    width: 855px;
+    height: 314px;
+    margin-top: 140px;
+    margin-left: 148px;
+    display: flex;
+}
+.section2{
+    width: 506px;
+    height: 296px;
+    margin-top: 18px;
+}
+.person_box{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.person_text{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+}
+#person_box2{
+    margin-top: 40px;
+    width: 497px;
+    height: 66px;
+}
+.person_text_2{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.download{
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--Primary, #FF6464);
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+/*სურათის ბოქსი*/
+.image_box{
+    width: 248px;
+    height: 256px;
+    margin-left: 101px;
+    position: relative;
+}
+.image_ellipse2{
+    width: 243px;
+    height: 243px;
+    margin-top: 13px;
+}
+.image_ellipse{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 243px;
+    height: 243px;
+    border-radius: 243px;
+}
+/*მეორე ბლოკი*/
+.block_2{
+    width: 100%;
+    height: 396px;
+    background-color: #EDF7FA;  
+}
+/*პოსტების ბლოკი*/
+.section3{
+    margin-top: 7px;
+    margin-left: 148px;
+    width: 856px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#recent_posts_box{
+    width: 129px;
+    height: 100%;
+}
+.recent_posts_text{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+.view_all{
+    margin-top: 20px;
+    width: 208px;
+    height: 20px;
+}
+.view_all_text{
+    margin-top: 0;
+    text-align: right;
+    color: var(--Secondry, #00A8CC);
+    text-align: right;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+#section4{
+    height: 295px;
+    margin-top: 2px;
+    gap: 20px;
+}
+.information_box{
+    width: 418px;
+    height: 295px;
+    padding-left: 23px;
+    border-radius: 4px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+.box_1{
+    width: 374px;
+    height: 85px;
+    margin-top: 24px;
+}
+.box_1_text{
+    margin-top: 0;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
+.box_2{
+    width: 374px;
+    height: 34px;
+    display: flex;
+    margin-top: 17px;
+}
+.box_2_text{
+    margin-top: 0;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.sveti{
+    margin-top: 3px;
+    margin-left: 29px;
+    margin-right: 29px;
+    width: 2px;
+    height: 21px;
+    background-color: #000;
+}
+.box_3{
+    width: 368px;
+    height: 117px;
+    margin-top: 11px;
+}
+.box_3_text{
+    margin-top: 0;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*მესამე ბლოკი*/
+.block_3{
+    width: 100%;
+    height: 1050px;
+}
+/*Featured works-ის ბლოკი-*/
+#section5{
+    width: 152px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 148px;
+}
+.section6{
+    width: 858px;
+    height: 699px;
+    margin-top: 11px;
+    margin-left: 146px;
+}
+.box4{
+    width: 100%;
+    height: 206px;
+    border: 1px solid #E0E0E0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 31px;
+    display: flex;
+}
+.rectangle{
+    margin-top: 11px;
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+}
+.charcho_1{
+    width: 594px;
+    height: 204px;
+    margin-left: 18px;
+    margin-top: 0;
+}
+.designing{
+    width: 305px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.designing_text{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.charcho_2{
+    width: 462px;
+    height: 34px;
+    margin-top: 16px;
+    display: flex;
+}
+.namber_2020{
+    margin-top: 4px;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background-color: #142850;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namber_2020_style{
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+}
+.dashboard{
+    margin-left: 28px;
+    width: 374px;
+    height: 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dashboard_text{
+    color: var(--Light, #8695A4);
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.text_1{
+    margin-top: 17px;
+    width: 594px;
+    height: 93px;
+}
+.text_1_style{
+    margin-top: 0;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box5{
+    width: 100%;
+    height: 206px;
+    border: 1px solid #E0E0E0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 31px;
+    display: flex;
+}
+#vibrant{
+    width: 337px;
+}
+#days_of_malayalan{
+    width: 365px;
+}
+/*სოც.ქსელების ლოგო-ლინკი*/
+.section7{
+    width: 232px;
+    height: 30px;
+    margin-top: 134px;
+    margin-left: 459px;
+    display: flex;
+    gap: 35px;
+}
+.social_image{
+    width: 30px;
+    height: 30px;
+}
+.twitter{
+    width: 36.9px;
+    height: 30px;
+}
+.section8{
+    margin-top: 24px;
+    margin-left: 464px;
+    width: 222px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* გვერდის ბოლო ნაწილი*/
+.section8_text{
+    margin: 0;
+    color: var(--Dark, #21243D);
+    font-family: Heebo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*მორგებული სტილები media query */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 375px !important;
+        height: 2165px !important;
+    }
+    .block_1{
+        width: 100% !important;
+        height: 666px !important;
+    }
+    .section1{
+        width: 100% !important;
+        height: 50px !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        background-image: url("menu.png");
+        background-repeat: no-repeat;
+        background-position: 327px 20px;
+        background-size: 30px 18px;
+    }
+    .blog{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .works{
+        display: none;
+    }
+    .charcho{
+        flex-direction: column-reverse !important;
+        width: 375px !important;
+        height: 558px !important;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+    .image_box{
+        width: 174.379px !important;
+        height: 179.999px !important;
+        margin-left: 97px !important;
+    }
+    .image_ellipse2{
+        width: 170.859px !important;
+        height: 170.859px !important;
+        margin-top: 9.14px !important;
+    }
+    .image_ellipse{
+        width: 170.859px !important;
+        height: 170.859px !important;
+        left: 3.52px !important;
+    }
+    .section2{
+        width: 328px !important;
+        height: 311px !important;
+        margin-left: 24px !important;
+        margin-top: 34px !important;
+    }
+    .person_box{
+        width: 312px !important;
+        height: 120px !important;
+        margin: auto;
+    }
+    .person_text{
+        font-size: 33px !important;
+        text-align: center;
+    }
+    #person_box2{
+        width: 328px !important;
+        height: 96px !important;
+        margin-top: 21px !important;
+        text-align: center;
+    }
+    .download{
+        margin-left: 60px !important;
+        margin-top: 27px !important;
+    }
+    .block_2{
+        height: 646px !important;
+    }
+    .section3{
+        width: 100% !important;
+        height: 60px !important;
+        margin-top: 0 !important;
+        margin-left: 0!important;
+    }
+    #recent_posts_box{
+        width: 108px !important;
+        height: 100% !important;
+        margin: auto !important;
+    }
+    .recent_posts_text{
+        font-size: 18px !important;
+    }
+    .view_all{
+        display: none;
+    }
+    #section4{
+        width: 354px !important;
+        height: 549px !important;
+        margin-left: 11px !important;
+        flex-direction: column !important;
+        gap: 17px !important;
+    }
+    .information_box{
+        width: 100% !important;
+        height: 266px !important;
+        padding-left: 19px;
+    }
+    .box_1{
+        width: 327px !important;
+        height: 60px !important;
+        margin-top: 12px !important;
+    }
+    .box_1_text{
+        font-size: 22px !important;
+    }
+    .box_2{
+        width: 246px !important;
+        height: 24px !important;
+        margin-top: 12px !important;
+    }
+    .box_2_text{
+        font-size: 15px;
+    }
+    .sveti{
+        margin-top: 1px !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .box_3{
+        width: 314px !important;
+        margin-top: 19px !important;
+    }
+    .block_3{
+        height: 852px !important;
+    }
+    #section5{
+        width: 126px !important;
+        height: 60px !important;
+        margin-top: 3px !important;
+        margin-left: 125px !important;
+    }
+    .recent_posts_text{
+        font-size: 16px;
+    }
+    .section6{
+        width: 344px !important;
+        height: 455px !important;
+        margin-top: 2px !important;
+        margin-left: 18px !important;
+
+    }
+    .box4{
+        height: 100% !important;
+        flex-direction: column !important;
+        margin-bottom: 0 !important;
+        
+    }
+    .rectangle{
+        margin-top: 0 !important;
+        width: 339px !important;
+        height: 230px !important;
+    }
+    .charcho_1{
+        width: 100% !important;
+        height: 191px !important;
+        margin-left: 0 !important;
+        margin-top: 17px !important;
+    }
+    .designing{
+        width: 224px !important;
+        height: 30px !important;
+    }
+    .designing_text{
+        font-size: 22px !important;
+    }
+    .charcho_2{
+        width: 162px !important;
+        height: 25px !important;
+    }
+    .namber_2020{
+        margin-top: 0 !important;
+    }
+    .namber_2020_style{
+        font-size: 16px !important;
+    }
+    .dashboard{
+        margin-left: 23px !important;
+        width: 78px !important;
+        height: 24px !important;
+    }
+    .dashboard_text{
+        font-size: 16px !important;
+    }
+    .text_1{
+        margin-top: 24px !important;
+        width: 100% !important;
+        height: 96px !important;
+    }
+    .box5{
+        display: none;
+    }
+    .section7{
+        margin-top: 201px !important;
+        margin-left: 71px !important;
+    }
+    .section8{
+        margin-top: 26px !important;
+        margin-left: 76.04px !important;
+    }
+}
